@@ -1,0 +1,33 @@
+.heading
+{
+color:blue;
+font-size: 200px
+}
+
+.description
+{
+	color: #383838 ;
+	font-size: 20px;
+	border-style: none;
+	border-left-style: solid;
+	border-color: black;
+	background-color: #C8C8C8 ;
+	padding: 10px;
+	display: inline-block;
+}
+
+.image
+{
+	width:200px;
+	position:relative;
+	left:10px;
+	display: block;
+}
+
+.chart
+{
+	display: block;
+	width: 100%;
+	height:140px;
+	background-color: #C8C8C8 ;
+}
