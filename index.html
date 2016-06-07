@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html>
 
+<title>Fat cats and Lasers</title>
+
 <head>
 	<link rel='stylesheet' type="text/css" href="style.css">
+    <script src="http://d3js.org/d3.v3.min.js"></script>
 </head>
 
 <!-- ---------------------------- -->
@@ -53,7 +56,7 @@
 </svg>
 
 <br>
-<img class="image" src="https://raw.githubusercontent.com/IsaKiko/D3-visualising-data/gh-pages/code/cat.jpg">
+<img id='cat' class="image" src="https://raw.githubusercontent.com/IsaKiko/D3-visualising-data/gh-pages/code/cat.jpg">
 <br>
 <div class="description">
 I am a smug cat
@@ -61,8 +64,17 @@ I am a smug cat
 <br>
 <br>
 <div>
+<button id='feed_me' type='button'>Feed me.</button>
+</div>
+
+<br>
+<div>
 Master cleanse tattooed butcher 3 wolf moon actually, authentic health goth waistcoat. Ramps shabby chic flexitarian aesthetic, stumptown neutra franzen. Jean shorts shoreditch ennui, food truck mixtape whatever venmo +1 sustainable lomo marfa you probably haven't heard of them direct trade messenger bag raw denim. Flannel gochujang quinoa master cleanse, normcore godard hammock artisan ramps. Skateboard chambray next level butcher, sriracha waistcoat DIY tofu tumblr XOXO vinyl master cleanse shabby chic church-key. Banh mi organic squid pinterest aesthetic. Poutine fixie sartorial master cleanse, lumbersexual farm-to-table ennui four dollar toast portland mumblecore fingerstache.
 </div>
+
+
+<script src="interaction.js"></script>
+
 
 </body>
 
